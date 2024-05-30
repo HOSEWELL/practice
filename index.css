@@ -35,3 +35,112 @@
     color: white;
     background-color: blue;
 }
+.div2{
+    display: flex;
+}
+.div2 figure img{
+    height: 15em;
+    background-color: blanchedalmond;
+}
+.div2 figure figcaption{
+    text-align: center;
+}
+.div3{
+    font-size: x-large;
+    font-weight: 800;
+    display: flex;
+    column-gap: 60em;
+}
+.div3 button{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+}
+.div4{
+    display: flex;
+}
+.div4 img{
+    height: 25em;
+    background-color: blanchedalmond;
+}
+.div4 figure figcaption i{
+    color: gold;
+}
+.div4 figure figcaption {
+    font-weight: 800;
+}
+.div5{
+    display: flex;
+}
+.div5 img{
+    height: 25em;
+    background-color: blanchedalmond;
+}
+.div5 figure figcaption i{
+  
+  color: gold;
+}
+.div5 figure figcaption{
+    font-weight: 800;
+}
+.div6{
+
+}
+.div6{
+    font-size: x-large;
+    font-weight: 800;
+    display: flex;
+    column-gap: 60em;
+}
+.div6 button{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+}
+.container .content{
+    position: absolute;
+    top: 0;
+    width: 70%;
+    padding: 10px;
+}
+.content span{
+    font-size: larger;
+    font-weight: bolder;
+}
+.content button{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+}
+.content img{
+    height: 45%;
+}
+.div7{
+    display: flex;
+}
+.columndiv1{
+    display: flex;
+    border: solid;
+}
+.divcolumn div div figcaption i{
+    color: gold;
+}
+.columndiv1 div img{
+    height: 60%;
+}
+.columndiv2{
+    display: flex;
+    border: solid;
+}
+.columndiv3{
+    display: flex;
+    border: solid;
+    column-gap: 10px;
+}
+.columndiv3 div img{
+    height: 50%;
+}
