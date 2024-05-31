@@ -8,10 +8,11 @@
 .divlist{
     display: flex;
     column-gap: 30px;
+    color: gray;
 }
 .div1{
     display: flex;
-    background-color: rgb(222, 192, 228);
+    background-color: rgb(247, 203, 211);
     padding: 30px;
     font-size: larger;
     column-gap: 25em;
@@ -30,6 +31,8 @@
     font-weight: 800;
     display: flex;
     column-gap: 60em;
+    background-color: blanchedalmond;
+    padding: 10px;
 }
 .heading1 button{
     color: white;
@@ -40,7 +43,6 @@
 }
 .div2 figure img{
     height: 15em;
-    background-color: blanchedalmond;
 }
 .div2 figure figcaption{
     text-align: center;
@@ -50,18 +52,24 @@
     font-weight: 800;
     display: flex;
     column-gap: 60em;
+    background-color: blanchedalmond;
+    padding: 10px;
 }
 .div3 button{
     color: white;
     background-color: blue;
     padding: 15px;
 }
+.columndiv3 div img{
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+}
 .div4{
     display: flex;
 }
 .div4 img{
     height: 25em;
-    background-color: blanchedalmond;
 }
 .div4 figure figcaption i{
     color: gold;
@@ -84,13 +92,12 @@
     font-weight: 800;
 }
 .div6{
-
-}
-.div6{
     font-size: x-large;
     font-weight: 800;
     display: flex;
     column-gap: 60em;
+    padding: 20px;
+    background-color: blanchedalmond;
 }
 .div6 button{
     color: white;
@@ -101,11 +108,14 @@
     position: relative;
     margin: 0 auto;
 }
+.container div img{
+    width: 150%;
+}
 .container .content{
     position: absolute;
-    top: 0;
+    top: 0px;
     width: 70%;
-    padding: 10px;
+    padding: 20px 20px;
 }
 .content span{
     font-size: larger;
@@ -116,11 +126,10 @@
     color: white;
     padding: 8px;
 }
-.content img{
-    height: 45%;
-}
 .div7{
     display: flex;
+    background-color: blanchedalmond;
+    padding: 20px;
 }
 .columndiv1{
     display: flex;
@@ -128,9 +137,6 @@
 }
 .divcolumn div div figcaption i{
     color: gold;
-}
-.columndiv1 div img{
-    height: 60%;
 }
 .columndiv2{
     display: flex;
@@ -143,4 +149,70 @@
 }
 .columndiv3 div img{
     height: 50%;
+    column-gap: 5px;
+}
+.div8{
+    display: flex;
+    border: solid;
+    border-width: 20%;
+    column-gap: 30em;
+    background-color: pink;
+    padding: 90px 40px;
+    height: 60%;
+}
+.div8 div img{
+    width: 50%;
+}
+.div8heading{
+    color: red;
+    font-size: large;
+    
+}
+.div8 div button{
+    background-color: blue;
+    color: white;
+}
+.div8span{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.div9{
+    display: flex;
+    column-gap: 30em;
+}
+.div9 span{
+   font-size: x-large;
+   font-weight: 400; 
+}
+.div9 div input{
+    padding: 10px;
+}
+.div9 div button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 40px;
+}
+.lastcontent{
+    display: flex;
+    column-gap: 20em;
+
+}
+.lastcontent div li{
+    list-style: none;
+    color: gray;
+}
+.lastcontent div i{
+    padding: 5px;
+}
+.divlast{
+    display: flex;
+    padding: 0px;
+    column-gap: 60em;
+}
+.divlast div i{
+    padding: 10px;
+}
+.divlast span{
+    padding: 30px;
 }
