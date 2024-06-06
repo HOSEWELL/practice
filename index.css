@@ -202,7 +202,7 @@ main{
 }
 .lastcontent{
     display: flex;
-    column-gap: 20em;
+    column-gap: 17em;
 
 }
 .lastcontent div li{
@@ -215,7 +215,7 @@ main{
 .divlast{
     display: flex;
     padding: 0px;
-    column-gap: 47em;
+    column-gap: 50em;
 }
 .divlast div i{
     padding: 10px;
