@@ -251,6 +251,7 @@ main{
     }
     .div2{
         display: grid;
+        justify-content: center;
     }
     .div4{
         display: grid;
@@ -265,7 +266,7 @@ main{
     }
     .div6{
         display: flex;
-        column-gap: 5px;
+        column-gap: 4px;
     }
     .div7{
         display: grid;
@@ -287,7 +288,9 @@ main{
     }
     .div8{
         font-size: large;
-        text-align: justify;
+        display: grid;
+        padding: 20px 20px;
+        border-width: 100%;
     }
     .div9{
         display: grid;
