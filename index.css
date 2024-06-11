@@ -277,6 +277,9 @@ main{
     .content{
         display: none;
     }
+    .divcolumn{
+        justify-content: center;
+    }
     .columndiv1{
         display: grid;
     }
@@ -305,6 +308,94 @@ main{
         display: flex;
         column-gap: 0px;
     }
+} 
+
+@media only screen and (min-width: 1200px){
+    main {
+        width: 98%;
+        padding: 0 10px;
+    }
+    .navbar {
+        align-items: center;
+        font-size: small;
+        display: flex;
+    }
+    .div1{
+        font-size: smaller;
+        display: flex;
+        align-content: center;
+        column-gap: 0em;
+    }
+    .heading1{
+        display: flex;
+        column-gap: 35em;
+    }
+    .div2{
+        display: flex;
+        column-gap: 2px;
+    }
+    .div2 img{
+        width: 80%;
+    }
+    .div4{
+        display: flex;
+    }
+    .div4 img{
+        width: 95%;
+    }
+    .div3{
+        display: flex;
+        column-gap: 35em;
+    }
+    .div5{
+        display: flex;
+    }
+    .div5 img{
+        width: 98%;
+    }
+    .div6{
+        display: flex;
+        column-gap: 38em;
+    }
+    .div7{
+        display: flex;
+    }
+    .container{
+        padding: 2px 2px;
+    }
+    .divcolumn{
+        justify-content: center;
+    }
+    .columndiv1{
+        display: grid;
+    }
+    .columndiv2{
+        display: grid;
+    }
+    .columndiv3{
+        display: grid;
+    }
+    .div8{
+        font-size: large;
+        display: flex;
+        padding: 20px 20px;
+        border-width: 100%;
+    }
+    .div9{
+        display: flex;
+    }
+    .lastcontent{
+        display: flex;
+        column-gap: 12em;
+    }
+    .divlast{
+        display: flex;
+        column-gap: 35em;
+    }
+    .terms{
+        display: flex;
+    }
 }
+
     
 
